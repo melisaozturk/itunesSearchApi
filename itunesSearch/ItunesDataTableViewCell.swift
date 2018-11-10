@@ -10,6 +10,11 @@ import UIKit
 
 class ItunesDataTableViewCell: UITableViewCell {
 
+    @IBOutlet weak var imgArt: UIImageView!
+    @IBOutlet weak var lblDesc: UILabel!
+    @IBOutlet weak var lblSongDesc: UILabel!
+    
+    /*
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
@@ -20,5 +25,6 @@ class ItunesDataTableViewCell: UITableViewCell {
 
         // Configure the view for the selected state
     }
+    */
 
 }
